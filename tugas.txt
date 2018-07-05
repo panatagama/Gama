@@ -26,7 +26,7 @@ Penentuan Tahun kabisat
 // pseudocode //
 STORE 'Tahun' with any value number
 
-IF 'Tahun' / 4 = 0 OR 'Tahun' / 100 = 0 AND 'Tahun' / 400 = 0
+IF 'Tahun' % 4 = 0 OR 'Tahun' % 100 = 0 AND 'Tahun' % 400 = 0
     DISPLAY 'Tahun Kabisat'
 ELSE
     DISPLAY 'Bukan Tahun Kabisat'
