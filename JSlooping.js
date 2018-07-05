@@ -1,18 +1,17 @@
 // soal nomor 1
-//var counter = 0;
+var counter = 0;
 
-// console.log('looping pertama');
-// while (counter < 20){
-//   counter +=2
-//   console.log(counter + ' i love coding');
+console.log('looping pertama');
+while (counter < 20){
+  counter +=2
+  console.log(counter + ' i love coding');
   
-// }
-// console.log('looping kedua');
-// while (counter > 2){
-//   counter -=2
-//   console.log(counter + ' i will become fullstack developer');
-  
-// }
+}
+console.log('looping kedua');
+while (counter >= 2){
+  console.log(counter + ' i will become fullstack developer');
+  counter -=2
+}
 
 //soal nomor 2
 // console.log('looping pertama');
@@ -35,9 +34,9 @@
 // }
 
 //*3 & 4
-var k3 = 0;
-var k6 = 1;
-var k10 = 1;
+// var k3 = 0;
+// var k6 = 1;
+// var k10 = 1;
 
 // kelipatan 3
 // while (k3 < 100){
@@ -58,11 +57,4 @@ var k10 = 1;
 //   }
 // }
 
-while (k10 < 100){
-  k10 += 9
-  if (k10 %10===0){
-    console.log(k10 + ' kelipatan 10');
-  }else{
-    console.log(k10 + ' ');
-  }
-}
+//}
