@@ -58,3 +58,12 @@ while (counter >= 2){
 // }
 
 //}
+
+// while (k10 < 100){
+//   k10 += 9
+//   if (k10 %10===0){
+//     console.log(k10 + ' kelipatan 10');
+//   }else{
+//     console.log(k10 + ' ');
+//   }
+// }
